@@ -1,0 +1,373 @@
+/*@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");*/
+/*@import url("https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap");*/
+
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: "Raleway", sans-serif;
+  overflow-x: hidden !important;
+  background: white;
+}
+
+.bg-gradient {
+  min-height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(147deg, #000000 0%, #1f1f1f 74%);
+  color: white;
+}
+
+.m-100 {
+  margin-bottom: 100px !important;
+  min-height: calc(100vh - 540px);
+}
+
+.navbar {
+  background: transparent !important;
+  position: absolute !important;
+  top: 0 !important;
+  width: 100% !important;
+  padding: 10px 20px;
+  z-index: 100;
+}
+
+.navbar .nav-link {
+  color: white !important;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.navbar .navbar-brand {
+  /*color: white !important;*/
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 700 !important;
+  font-size: 17px;
+  background: white;
+  padding: 5px 10px;
+  border-radius: 6px;
+  color: #333 !important;
+}
+
+.vl {
+  border-left: 1px solid #dadbda;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+}
+
+.mt-40 {
+  padding-top: 70px;
+}
+
+.full-height {
+  min-height: 100vh;
+  padding-bottom: 70px;
+}
+
+.height-80 {
+  min-height: 80vh;
+}
+
+.height-60 {
+  min-height: 300px;
+}
+
+#scrollbtna2 {
+  text-transform: uppercase;
+  color: white;
+  border-radius: 10px;
+  border: 2px solid white !important;
+}
+
+.mb-60 {
+  margin-bottom: 60px;
+}
+
+#contact {
+  background: #efefef;
+  padding-bottom: 10px;
+}
+
+.avatar img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-size: cover;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
+
+.bio p {
+  font-size: 14px;
+  line-height: 25px;
+}
+
+.skill-set {
+  border-left: 2px solid white;
+  background: rgba(44, 44, 44, 0.8);
+  border-radius: 0 9px 9px 0;
+  padding: 10px 20px;
+}
+
+.skill-set span {
+  border-bottom: 2px solid white;
+  text-transform: uppercase;
+  font-size: 12px;
+  padding: 5px 0;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.skill-set ul {
+  list-style: none;
+  padding: 0;
+  font-size: 13px;
+  line-height: 30px;
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+.recent-link {
+  position: absolute;
+  top: 1000vh;
+  left: 0;
+  right: 0;
+}
+
+.skill-set ul li i {
+  margin-right: 5px;
+  font-size: 9px;
+}
+
+.bio .title {
+  color: #666666;
+  font-size: 12px;
+}
+
+.pt-30 {
+  padding-top: 30px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.my-auto {
+  margin-top: auto !important;
+  margin-bottom: auto !important;
+}
+
+.no-margin {
+  margin: 0;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+.recent-link a {
+  color: white;
+  text-decoration: none;
+}
+
+/*footer area start*/
+footer {
+  background: #1a1919;
+  color: white;
+  width: 100%;
+  height: 120px !important;
+}
+
+footer .footer-copyright {
+  font-size: 12px;
+}
+
+/*footer area end*/
+#scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  font-size: 30px;
+  background: rgba(255, 255, 255, 0.7) !important;
+  padding: 0 10px;
+}
+
+#scroll-to-top:hover {
+  background: #333 !important;
+  cursor: pointer;
+  color: white !important;
+}
+
+.mt-30 {
+  padding-top: 30px;
+}
+
+button,
+.btn {
+  background: #333 !important;
+  border: none !important;
+  font-size: 13px;
+}
+
+button:hover,
+.btn:hover {
+  background: #666 !important;
+  border: none !important;
+}
+
+.b-shadow {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+  -o-box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+.card .card-title {
+  font-size: 17px;
+}
+
+.card .card-body {
+  font-size: 13px;
+}
+
+/*menu button start*/
+/* Icon 1 */
+
+.animated-icon1,
+.animated-icon2,
+.animated-icon3 {
+  width: 30px;
+  height: 20px;
+  position: relative;
+  margin: 0px;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.animated-icon1 span,
+.animated-icon2 span,
+.animated-icon3 span {
+  display: block;
+  position: absolute;
+  height: 3px;
+  width: 100%;
+  border-radius: 9px;
+  opacity: 1;
+  left: 0;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: 0.25s ease-in-out;
+  -moz-transition: 0.25s ease-in-out;
+  -o-transition: 0.25s ease-in-out;
+  transition: 0.25s ease-in-out;
+}
+
+.animated-icon2 span {
+  background: #ffffff;
+}
+
+.navbar-toggler {
+  background: none !important;
+}
+
+.navbar-toggler:after,
+.navbar-toggler:focus {
+  background: none !important;
+  outline: none !important;
+  box-shadow: none;
+}
+
+.animated-icon2 span:nth-child(1) {
+  top: 0px;
+}
+
+.animated-icon2 span:nth-child(2),
+.animated-icon2 span:nth-child(3) {
+  top: 10px;
+}
+
+.animated-icon2 span:nth-child(4) {
+  top: 20px;
+}
+
+.animated-icon2.open span:nth-child(1) {
+  top: 11px;
+  width: 0%;
+  left: 50%;
+}
+
+.animated-icon2.open span:nth-child(2) {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.animated-icon2.open span:nth-child(3) {
+  -webkit-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.animated-icon2.open span:nth-child(4) {
+  top: 11px;
+  width: 0%;
+  left: 50%;
+}
+
+/*menu button end*/
+
+button:after,
+button:focus,
+input:active,
+input:focus,
+.btn:active,
+.btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.skill-set ul li {
+  position: relative;
+}
+.skill-set ul li svg {
+  margin-right: 0px;
+  width: 10px !important;
+  position: relative;
+  top: 0px;
+  height: 10px !important;
+}
+.skill-set {
+  padding: 10px;
+}
+.page-enter-active,
+.page-leave-active {
+  transition: opacity 0.5s;
+}
+.page-enter,
+.page-leave-to {
+  opacity: 0;
+}
+.form-control::placeholder {
+  font-size: 12px;
+}

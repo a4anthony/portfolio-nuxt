@@ -1,0 +1,253 @@
+/* (1366x768) WXGA Display */
+
+@media screen and (min-width: 1366px) and (max-width: 1919px) {
+}
+
+@media (min-width: 1198px) and (max-width: 1365.9px) {
+  .card-project {
+    max-width: 950px !important;
+    margin: 0 auto !important;
+    margin-bottom: 30px !important;
+  }
+}
+
+/* Normal desktop :992px. */
+
+@media (min-width: 992px) and (max-width: 1197px) {
+  .col-md-12-r {
+    -ms-flex: 0 0 100% !important;
+    flex: 0 0 100% !important;
+    max-width: 100% !important;
+  }
+
+  .project-img {
+    height: 450px !important;
+  }
+
+  .project-info-img {
+    height: 200px !important;
+  }
+
+  /*.mt-180-sm {*/
+  /*    margin-top: 300px !important;*/
+  /*}*/
+  /*.mb-180-sm {*/
+  /*    margin-bottom: 300px !important;*/
+  /*}*/
+  .card-project {
+    max-width: 700px !important;
+    margin: 0 auto !important;
+    margin-bottom: 30px !important;
+  }
+
+  .bio {
+    text-align: center;
+    padding: 0px;
+    margin-right: unset;
+    margin: 10px 120px;
+  }
+
+  .bio p {
+    font-size: 17px;
+  }
+
+  .bio h6 {
+    font-size: 29px !important;
+  }
+
+  .bio .title {
+    font-size: 17px !important;
+  }
+
+  .avatar img {
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .skill-set {
+    margin: 40px 10px;
+  }
+
+  .skill-set span {
+    font-size: 15px;
+  }
+
+  .skill-set ul {
+    font-size: 16px;
+  }
+
+  .skill-set ul li i {
+    font-size: 11px;
+  }
+}
+
+/* Normal desktop :991px. */
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .avatar img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-size: cover;
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+  }
+
+  /*.full-height {*/
+  /*    height: unset !important;*/
+  /*}*/
+  .card {
+    margin-bottom: 30px !important;
+  }
+
+  .mt-180-sm {
+  }
+
+  .mb-180-sm {
+  }
+
+  .bio {
+    text-align: center;
+    padding: 0px;
+    margin-right: unset;
+    margin: 10px 50px;
+  }
+
+  .pt-70-sm {
+    padding-top: 70px;
+  }
+
+  /*.recent-link {*/
+  /*    position:relative !important;*/
+  /*    top: unset !important;*/
+  /*    bottom: 0px;*/
+  /*    left: 0;*/
+  /*    right: 0;*/
+  /*    margin: 0 auto;*/
+  /*}*/
+  .skill-set {
+    margin: 40px 10px;
+  }
+}
+
+/* small mobile :576px. */
+
+@media (min-width: 576px) and (max-width: 767px) {
+  .avatar img {
+    margin: 0 auto;
+    display: block;
+  }
+
+  .pt-70-sm {
+    padding-top: 70px;
+  }
+
+  .full-height {
+    height: unset !important;
+  }
+
+  .navbar .navbar-brand {
+    /*color: white !important;*/
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700 !important;
+    font-size: 13px;
+  }
+
+  .card {
+    margin-bottom: 30px !important;
+  }
+
+  .bio {
+    text-align: center;
+    padding: 10px;
+    margin-right: 0;
+  }
+
+  .skill-set {
+    margin: 40px 10px;
+  }
+
+  .project-img {
+    height: 300px !important;
+  }
+
+  .project-info-img {
+    height: 170px !important;
+  }
+}
+
+/* extra small mobile 320px. */
+
+@media (max-width: 575px) {
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden !important;
+  }
+
+  .avatar img {
+    margin: 0 auto;
+    display: block;
+  }
+
+  .project-img {
+    height: 210px !important;
+  }
+
+  .pt-70-sm {
+    padding-top: 70px;
+  }
+
+  .card-project {
+    max-width: 350px !important;
+    margin: 0 auto !important;
+  }
+
+  #projects {
+    max-width: 380px !important;
+    margin: 0 auto !important;
+  }
+
+  .navbar .navbar-brand {
+    /*color: white !important;*/
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 700 !important;
+    font-size: 13px;
+  }
+
+  .card {
+    margin-bottom: 30px !important;
+  }
+
+  .bio {
+    text-align: center;
+    padding: 10px;
+    margin-right: 0;
+  }
+
+  .skill-set {
+    margin: 40px 10px;
+  }
+
+  #projects .card-body {
+    /*min-height: unset !important;*/
+  }
+}
+
+/* Large Mobile :480px. */
+
+@media only screen and (min-width: 480px) and (max-width: 575px) {
+  body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow-x: hidden !important;
+  }
+}
