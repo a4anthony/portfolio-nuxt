@@ -3,7 +3,7 @@ export const appData = () => ({
     name: "Anthony Akro",
     title: "Full Stack Web Developer",
     bio:
-      "I am a full stack web developer and a " +
+      "I am a full stack web developer and " +
       "a creative thinker. I constantly find better and efficient ways " +
       "to solve problems and I am also passionate about learning new technologies.",
     github_link: "https://github.com/a4anthony",
