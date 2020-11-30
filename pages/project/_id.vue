@@ -3,12 +3,15 @@
     <div class="container">
       <div id="details" class="row pt-30 " style="height: 93vh">
         <div class="col-12 my-auto">
-          <div class="card card-project mb-3 b-shadow">
+          <div
+            class="card card-project mb-3 b-shccadow"
+            style="border-radius: 0!important;"
+          >
             <div class="row no-gutters">
               <div class="col-lg-8 col-md-12 col-md-12-r col-sm-12">
                 <img
                   class="project-img"
-                  style="width: 100%; height: 440px; background: white;"
+                  style="width: 100%; height: 440px; background: white;border-radius: 0!important;"
                   :src="project.image_link"
                   alt=""
                   width="100%"
