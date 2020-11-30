@@ -24,7 +24,7 @@
                   <strong>Technologies:</strong>
                   <p class="card-text">
                     <span
-                      style="margin-right: 10px"
+                      style="margin-right: 10px; display: inline-block"
                       v-for="(technology, index) in project.technologies"
                       :key="index"
                       >{{ technology }}</span
@@ -58,7 +58,23 @@ export default {
         }
       });
       return project;
+    },
+    title() {
+      return this.project.title || "";
     }
+  },
+  head() {
+    return {
+      title: this.title,
+      meta: [
+        // hid is used as unique identifier. Do not use `vmid` for it as it will not work
+        {
+          hid: "description",
+          name: "description",
+          content: "My custom description"
+        }
+      ]
+    };
   }
 };
 </script>

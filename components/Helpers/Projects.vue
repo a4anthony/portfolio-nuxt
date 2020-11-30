@@ -14,9 +14,9 @@
           :key="index"
           style="height: 100%"
         >
-          <div class="card mb-2 b-shadow">
+          <div class="card mb-2 b-shadow-" style="border-radius: 0!important;">
             <img
-              style="width: 100%; height: 240px; background: white;"
+              style="width: 100%; height: 240px; background: white;border-radius: 0!important;"
               class="card-img-top img-fluid project-info-img"
               :src="project.image_link"
             />
