@@ -57,7 +57,7 @@ export const appData = () => ({
       description:
         "A tech blog and website which is still under construction. Currently being built on Nuxtjs and Laravel frameworks",
       class: "col-lg-4 offset-lg-2 col-md-6",
-      image_link: "/images/projects/coupon_package.png",
+      image_link: "/images/projects/melaspace.png",
       technologies: ["Vuejs", "Nuxtjs", "Bootstrap", "Laravel", "Nginx", "Git"],
       link: "https://mspace-nuxt.herokuapp.com",
       link_text: "Visit blog"
