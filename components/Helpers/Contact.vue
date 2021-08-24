@@ -1,6 +1,8 @@
 <template>
   <section id="contact" class="mb-60 mt-30">
     <div class="container">
+      <hr style="visibility:hidden;" />
+      <hr style="visibility:hidden;" />
       <h4 class="section-header text-center" style="text-transform: uppercase">
         Contact Me
       </h4>
@@ -41,15 +43,21 @@
               placeholder="Enter message"
             ></textarea>
           </div>
-          <div class="form-actions">
+          <div class="form-actions mt-4">
             <button
               class="btn"
-              style="color: white;text-transform: uppercase; width: 40%; padding: 10px;"
+              style="color: white;text-transform: uppercase; width: 30%; padding: 15px; font-weight: 700"
               type="button"
             >
               Send
             </button>
           </div>
+          <span class="mt-3 d-block">
+            You can also send a mail directly to
+            <a href="mailto:anthonyakrodev@gmail.com"
+              >anthonyakrodev@gmail.com</a
+            >
+          </span>
         </div>
       </div>
     </div>
@@ -63,6 +71,12 @@ export default {
 </script>
 
 <style scoped>
+#contact {
+  /*background: #efefef;*/
+  padding-bottom: 10px;
+  color: #e5e3e3;
+}
+
 /* (1366x768) WXGA Display */
 
 @media screen and (min-width: 1366px) and (max-width: 1919px) {

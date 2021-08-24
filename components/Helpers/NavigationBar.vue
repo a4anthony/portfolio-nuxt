@@ -3,7 +3,7 @@
     class="navbar navbar-expand-lg navbar-light bg-light"
     :class="switchNavbar ? 'navbar-switch' : ''"
   >
-    <nuxt-link class="navbar-brand" to="/">ProjectsByAnthony</nuxt-link>
+    <!--<nuxt-link class="navbar-brand" to="/">A4anthony</nuxt-link>-->
     <!-- Collapse button -->
     <button
       @click="toggleMenu"

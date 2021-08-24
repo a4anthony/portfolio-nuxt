@@ -1,0 +1,44 @@
+{
+  "Logo": {
+    "description": "Auto imported from components/Logo.vue"
+  },
+  "LazyLogo": {
+    "description": "Auto imported from components/Logo.vue"
+  },
+  "Contact": {
+    "description": "Auto imported from components/Helpers/Contact.vue"
+  },
+  "LazyContact": {
+    "description": "Auto imported from components/Helpers/Contact.vue"
+  },
+  "FooterArea": {
+    "description": "Auto imported from components/Helpers/FooterArea.vue"
+  },
+  "LazyFooterArea": {
+    "description": "Auto imported from components/Helpers/FooterArea.vue"
+  },
+  "Lander": {
+    "description": "Auto imported from components/Helpers/Lander.vue"
+  },
+  "LazyLander": {
+    "description": "Auto imported from components/Helpers/Lander.vue"
+  },
+  "NavigationBar": {
+    "description": "Auto imported from components/Helpers/NavigationBar.vue"
+  },
+  "LazyNavigationBar": {
+    "description": "Auto imported from components/Helpers/NavigationBar.vue"
+  },
+  "ProjectCards": {
+    "description": "Auto imported from components/Helpers/ProjectCards.vue"
+  },
+  "LazyProjectCards": {
+    "description": "Auto imported from components/Helpers/ProjectCards.vue"
+  },
+  "Projects": {
+    "description": "Auto imported from components/Helpers/Projects.vue"
+  },
+  "LazyProjects": {
+    "description": "Auto imported from components/Helpers/Projects.vue"
+  }
+}

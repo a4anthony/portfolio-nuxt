@@ -1,13 +1,49 @@
 export default {
+  target: "static",
+
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: "Anthony Akro",
+    title: "Portfolio - Anthony Akro",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { hid: "description", name: "description", content: "" }
+      {
+        hid: "description",
+        name: "description",
+        content: "Portfolio - Anthony Akro"
+      },
+      { property: "og:title", content: "Portfolio - Anthony Akro" },
+      {
+        name: "image",
+        property: "og:image",
+        content: "https://a4anthony.github.io/images/avatar.jpg"
+      },
+      { property: "og:description", content: "Full Stack Web Developer" },
+      { property: "og:url", content: "https://a4anthony.github.io/" },
+      // twitter card
+      { name: "twitter:card", content: "summary" },
+      { name: "twitter:url", content: "https://a4anthony.github.io/" },
+      { name: "twitter:title", content: "Portfolio - Anthony Akro" },
+      // {
+      //   name: "twitter:description",
+      //   content: ""
+      // },
+      {
+        name: "twitter:image",
+        content: "https://a4anthony.github.io/images/avatar.jpg"
+      }
+    ],
+    link: [
+      {
+        rel: "preconnect",
+        href: "https://fonts.gstatic.com"
+      },
+      {
+        rel: "stylesheet",
+        href:
+          "https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+      }
     ]
-    // link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
@@ -29,7 +65,12 @@ export default {
   ],
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
-  build: {},
+  build: {
+    analyze: {
+      analyzerMode: "static"
+    }
+  },
+  buildDir: "nuxt-dist",
 
   // Font Awesome
   fontawesome: {

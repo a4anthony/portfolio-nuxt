@@ -1,7 +1,10 @@
 <template>
   <div>
     <lander />
-    <projects />
+
+    <project-cards />
+    <!--<projects />-->
+
     <contact />
   </div>
 </template>
@@ -10,8 +13,9 @@
 import Lander from "../components/Helpers/Lander";
 import Projects from "../components/Helpers/Projects";
 import Contact from "../components/Helpers/Contact";
+import ProjectCards from "@/components/Helpers/ProjectCards";
 export default {
-  components: { Contact, Projects, Lander }
+  components: { ProjectCards, Contact, Projects, Lander }
 };
 </script>
 

@@ -10,6 +10,7 @@ export const appData = () => ({
     linkedIn_link: ""
   },
   skills: [
+    "Database Management",
     "Problem solving",
     "Creative thinking",
     "Communicating",
@@ -18,16 +19,22 @@ export const appData = () => ({
   frameworks: [
     "Laravel",
     "Vuejs",
+    "React",
+    "Express",
     "Nuxtjs",
     "Django",
     "Bootstrap",
+    "TailwindCss",
     "jQuery",
     "Ajax",
     "Git",
     "Docker",
     "Nginx"
   ],
+  servers: ["Digital Ocean"],
+  databases: ["MySQL", "postgreSQL", "SQLite"],
   languages: ["PHP", "CSS", "Javascript", "MySql"],
+  testings: ["Jest", "PHPUnit", "Cypress", "Laravel Dusk"],
   projects: [
     {
       id: "1",
@@ -52,25 +59,37 @@ export const appData = () => ({
       link_text: "View package"
     },
     {
-      id: "3",
-      title: "MelaSpace",
+      id: "5",
+      title: "Cartavel - Laravel Package",
       description:
-        "A tech blog and website which is still under construction. Currently being built on Nuxtjs and Laravel frameworks",
+        "A simple laravel package to aid E-commerce platforms maintain and manage user cart systems",
+      class: "col-lg-4 col-md-6",
+      image_link: "/images/projects/coupon_package.png",
+      technologies: ["Bootstrap", "Laravel", "Nginx", "Git"],
+      link: "https://github.com/a4anthony/cartavel",
+      link_text: "View package"
+    },
+    {
+      id: "3",
+      title: "MelaStore",
+      description:
+        "Currently building a vue component library that helps you easily build amazing E-commerce websites. Yup! You're welcome.",
       class: "col-lg-4 offset-lg-2 col-md-6",
       image_link: "/images/projects/melaspace.png",
       technologies: ["Vuejs", "Nuxtjs", "Bootstrap", "Laravel", "Nginx", "Git"],
-      link: "https://mspace-nuxt.herokuapp.com",
-      link_text: "Visit blog"
+      link: "https://github.com/dev-melatech/mela-store",
+      link_text: "Visit package"
     },
     {
       id: "4",
-      title: "Personal Portfolio",
-      description: "A simple portfolio and blog website",
+      title: "Amela Group",
+      description:
+        "Rebranded the Amela Group website to improve engagements between the organisation and its partners.",
       class: "col-lg-4 col-md-6",
       image_link: "/images/projects/pbanthony.png",
       technologies: ["Vuejs", "Nuxtjs", "Bootstrap", "Nginx", "Git"],
-      link: "https://github.com/a4anthony/portfolio-nuxt",
-      link_text: "Github"
+      link: "https://www.amelagroup.com",
+      link_text: "View site"
     }
   ]
 });

@@ -1,0 +1,16 @@
+[
+  {
+    "name": "project-id",
+    "path": "/project/:id?",
+    "component": "/Users/anthony/www/portfolio/pages/project/_id.vue",
+    "chunkName": "pages/project/_id",
+    "_name": "_9a6f4e08"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/anthony/www/portfolio/pages/index.vue",
+    "chunkName": "pages/index",
+    "_name": "_925845ec"
+  }
+]
